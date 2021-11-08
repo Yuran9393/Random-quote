@@ -1,0 +1,57 @@
+body{
+    background-color: rgba(40, 217, 240, 0.473);
+}
+.container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.quotes_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh ;
+    flex-direction: column;
+    border: 10px solid rgb(223, 144, 144);
+    background-color: rgba(255, 255, 255, 0.637);
+    padding: 5% 5%;
+    width: 95%;
+}
+.quotes_title{
+    font-size: 4rem;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 700;
+}
+.quotes_text{
+    font-size: 2rem;
+    margin-top: 20px;
+    font-weight: 200;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 400;
+}
+.quotes_author{
+    font-size: 2rem;
+    margin-top: 10px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 400;
+}
+.btn{
+    margin-top: 50px;
+}
+@media(max-width: 320px){
+    .quotes_title{
+        font-size: 2rem;
+    }
+    .quotes_text{
+        font-size: 1rem;
+}
+.quotes_author{
+    font-size: 1rem;
+}
+@media(max-width: 240px){
+    .quotes_title{
+        font-size: 2rem;
+    }
+}}
